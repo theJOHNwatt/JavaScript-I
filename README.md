@@ -21,17 +21,17 @@
 
 ## Assignment Description
 
-- Complete all the exercises as described inside each assignment file.
-- Use `console.log()` statements to check to see if your code does what it is supposed to do.
-- To test your `console.log()` statements open up the index.html file found in the assignments folder and use the developer tools to view the console.
+- [x] Complete all the exercises as described inside each assignment file.
+- [x] Use `console.log()` statements to check to see if your code does what it is supposed to do.
+- [x] To test your `console.log()` statements open up the index.html file found in the assignments folder and use the developer tools to view the console.
 
 **Note:**You could also run `node /assignments/<fileName>` and see what prints in your terminal.
 
-- Once you finish the exercises in each file, commit your code, and push it to your fork.
+- [x] Once you finish the exercises in each file, commit your code, and push it to your fork.
 
 ### Objects
 
-To better understand objects, you really just need to write more of them. The [objects.js](assignments/objects.js) file contains several challenges centered around a theme of interns starting at a new job. The Human Resources team needs information about the new hires. Use your new found object skills to answer vital questions for HR.
+[x] To better understand objects, you really just need to write more of them. The [objects.js](assignments/objects.js) file contains several challenges centered around a theme of interns starting at a new job. The Human Resources team needs information about the new hires. Use your new found object skills to answer vital questions for HR.
 
 - Read the instructions found within the file carefully to finish the challenges
 - Don't work on stretch until you have completed all assignments

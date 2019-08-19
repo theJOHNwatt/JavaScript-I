@@ -30,15 +30,14 @@ const mitzi = {
 }
 
 const kennan = {
-  id: 3,
-  email: "kdiben1@tinypic.com",
+  id: 1,
   name: "Kennan",
+  email: "kdiben1@tinypic.com",
   gender: "M",
-
-  speak: (name) => {
-    return "Hello, my name is Kennan!"; 
+  speak: function() {
+    return `Hello, my name is ${this.name}!`;
   }
-}
+}; 
 
 const gannie = {
   id: 4,
