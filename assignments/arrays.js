@@ -80,8 +80,8 @@ console.log(inventory[32]);
 
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
-let lastCar = [];
-console.log(inventory[inventory.length-1]);
+let lastCar = inventory.shift();
+console.log(lastCar);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
@@ -109,11 +109,17 @@ console.log(oldCars);
 
 // ==== Challenge 6 ====
 // A buyer is interested in seeing only BMW and Audi cars within the inventory. Return an array that only contains BMW and Audi cars.  Once you have populated the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
-// let BMWAndAudi = [];
 
-let carMakes = inventory.map (make => make.car_make);
-let BMWAndAudi = carMakes.filter (bmworaudi => {
-  return bmworaudi.carMakes === 'Audi';
-});
 
-console.log(BMWAndAudi);
+// let carMakes = inventory.map (make => make.car_make);
+
+// let BMWorAudi = carMakes.filter ((makes) => {
+//   if (makes.carMakes && 'BMW') { return makes.carMakes;} else if (makes.carMakes && 'Audi') {return makes.carMakes;} else { return 'Model: None';}
+// }
+
+// );
+
+let BmwAudi = inventory.filter(car => car.car_make === "BMW" || car.car_make === "Audi");
+
+console.log (BmwAudi);
+
